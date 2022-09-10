@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95974f8b-38f6-4379-9a45-da4c61000a6c" name="Changes" comment="setup">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artifacts/webdrivermanager-5.3.0-fat.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +42,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "last_opened_file_path": "C:/Netology Homeworks/GradleHomework3.1/driver/win"
+    "last_opened_file_path": "C:/Netology Homeworks/GradleHomework3.1/artifacts"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Netology Homeworks\GradleHomework3.1\driver\win" />
       <recent name="C:\Netology Homeworks\GradleHomework3.1\artifacts" />
+      <recent name="C:\Netology Homeworks\GradleHomework3.1\driver\win" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.WebTest">
@@ -173,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662800475874</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="setup">
+      <created>1662812686888</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662812686888</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
