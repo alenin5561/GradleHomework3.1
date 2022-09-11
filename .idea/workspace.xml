@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95974f8b-38f6-4379-9a45-da4c61000a6c" name="Changes" comment="add dependency web">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="95974f8b-38f6-4379-9a45-da4c61000a6c" name="Changes" comment="new few tests">
       <change beforePath="$PROJECT_DIR$/src/test/java/WebTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -244,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662882246063</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="new few tests">
+      <created>1662883042643</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1662883042643</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,6 +269,7 @@
     <MESSAGE value="run test" />
     <MESSAGE value="setup" />
     <MESSAGE value="add dependency web" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dependency web" />
+    <MESSAGE value="new few tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="new few tests" />
   </component>
 </project>
