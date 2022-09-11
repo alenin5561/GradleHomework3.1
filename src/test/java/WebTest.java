@@ -73,8 +73,4 @@ public class WebTest {
         String text = driver.findElement(By.className("input__sub")).getText();
         assertEquals("Имя и Фамилия указаные неверно. Допустимы только русские буквы, пробелы и дефисы.", text.trim());
     }
-
-    //дописать тесты на телефон (как проверить красную надпись в поле телефон)
-    //как ссылаться на data-class-name?
-    //исправить дописать тесты!
-    }
+}
