@@ -73,18 +73,4 @@ public class WebTest {
         String text = driver.findElement(By.className("input__sub")).getText();
         assertEquals("Имя и Фамилия указаные неверно. Допустимы только русские буквы, пробелы и дефисы.", text.trim());
     }
-
-
-    //тест на номер неправильный номер телефона? (как проверить именно строчки из моб телефона? )
-    @Test
-    void wrongPhoneNumber() {
-        driver.get("http://localhost:9999");
-        List<WebElement> elements = driver.findElements(By.className("input__control"));
-        elements.get(0).sendKeys("Аленин Андрей");
-        elements.get(1).sendKeys("89046472030");
-        driver.findElement(By.cssSelector(".checkbox_size_m ")).click();
-        driver.findElement(By.cssSelector(".button_view_extra ")).click();
-        String text = driver.findElement(By.cssSelector("input__sub")).getText();
-        assertEquals("Телефон указан неверно. Должно быть 11 цифр, например, +79012345678.", text.trim());
-    }
 }
