@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95974f8b-38f6-4379-9a45-da4c61000a6c" name="Changes" comment="new few tests">
-      <change beforePath="$PROJECT_DIR$/src/test/java/WebTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTest.java" afterDir="false" />
+    <list default="true" id="95974f8b-38f6-4379-9a45-da4c61000a6c" name="Changes" comment="config before each">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +40,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "C:/Netology Homeworks/GradleHomework3.1/artifacts"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;C:/Netology Homeworks/GradleHomework3.1/artifacts&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Netology Homeworks\GradleHomework3.1\artifacts" />
@@ -250,7 +250,28 @@
       <option name="project" value="LOCAL" />
       <updated>1662883042643</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="config before each">
+      <created>1662890754555</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1662890754555</updated>
+    </task>
+    <task id="LOCAL-00018" summary="config before each">
+      <created>1662890763311</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1662890763311</updated>
+    </task>
+    <task id="LOCAL-00019" summary="config before each">
+      <created>1662891199789</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1662891199789</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -270,6 +291,7 @@
     <MESSAGE value="setup" />
     <MESSAGE value="add dependency web" />
     <MESSAGE value="new few tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="new few tests" />
+    <MESSAGE value="config before each" />
+    <option name="LAST_COMMIT_MESSAGE" value="config before each" />
   </component>
 </project>
