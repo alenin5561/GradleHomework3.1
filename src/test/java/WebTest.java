@@ -68,9 +68,13 @@ public class WebTest {
         List<WebElement> elements = driver.findElements(By.className("input__control"));
         elements.get(0).sendKeys("Alenin Andrew");
         elements.get(1).sendKeys("+79046472030");
-        driver.findElement(By.cssSelector(".checkbox_size_m ")).click();
-        driver.findElement(By.cssSelector(".button_view_extra ")).click();
+        driver.findElement(By.className("checkbox__box")).click();
+        driver.findElement(By.className("button")).click();
         String text = driver.findElement(By.className("input__sub")).getText();
         assertEquals("Имя и Фамилия указаные неверно. Допустимы только русские буквы, пробелы и дефисы.", text.trim());
     }
-}
+
+    //дописать тесты на телефон (как проверить красную надпись в поле телефон)
+    //как ссылаться на data-class-name?
+    //исправить дописать тесты!
+    }
