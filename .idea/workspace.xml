@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95974f8b-38f6-4379-9a45-da4c61000a6c" name="Changes" comment="setup">
+    <list default="true" id="95974f8b-38f6-4379-9a45-da4c61000a6c" name="Changes" comment="add dependency web">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
@@ -195,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662813321798</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add dependency web">
+      <created>1662813962481</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662813962481</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +220,7 @@
     <MESSAGE value="commit" />
     <MESSAGE value="run test" />
     <MESSAGE value="setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="setup" />
+    <MESSAGE value="add dependency web" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dependency web" />
   </component>
 </project>
