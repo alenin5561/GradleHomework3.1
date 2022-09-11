@@ -12,14 +12,22 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class WebTest {
 
 
     private WebDriver driver;
 
+
     @BeforeAll
     static void setupAll() {
-        System.setProperty("webdriver.chrome.driver","driver/win/chromedriver.exe");
+        WebDriverManager.chromedriver().setup();
+    }
+
+    @BeforeAll
+    static void setupA() {
+        System.setProperty("webdriver.chrome.driver", "driver/win/chromedriver.exe");
     }
 
     @BeforeEach
@@ -34,7 +42,7 @@ public class WebTest {
     @AfterEach
     void teardown() {
         driver.quit();
-        driver=null;
+        driver = null;
     }
 
     @Test
