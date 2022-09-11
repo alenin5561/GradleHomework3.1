@@ -32,6 +32,7 @@ public class WebTest {
         options.addArguments("--no-sandbox");
         options.addArguments("--headless");
         driver = new ChromeDriver();
+        driver.get("http://localhost:9999");
     }
 
     @AfterEach
@@ -41,13 +42,7 @@ public class WebTest {
     }
 
     @Test
-    void openWeb() {
-        driver.get("http://localhost:9999");
-    }
-
-    @Test
     void testSiteForm() {
-        driver.get("http://localhost:9999");
         List<WebElement> elements = driver.findElements(By.className("input__control"));
         elements.get(0).sendKeys("Аленин Андрей");
         elements.get(1).sendKeys("+79046472030");
@@ -58,7 +53,6 @@ public class WebTest {
     }
     @Test
     void testSiteFormWithDefice() {
-        driver.get("http://localhost:9999");
         List<WebElement> elements = driver.findElements(By.className("input__control"));
         elements.get(0).sendKeys("Аленин-Александров Андрей");
         elements.get(1).sendKeys("+79046472030");
@@ -70,7 +64,6 @@ public class WebTest {
 
     @Test
     void testSiteFormWithDef() {
-        driver.get("http://localhost:9999");
         List<WebElement> elements = driver.findElements(By.className("input__control"));
         elements.get(0).sendKeys("Аленин-Александров Андрей");
         elements.get(1).sendKeys("+79046472030");
@@ -82,7 +75,6 @@ public class WebTest {
 
     @Test
     void wrongName() {
-        driver.get("http://localhost:9999");
         List<WebElement> elements = driver.findElements(By.className("input__control"));
         elements.get(0).sendKeys("Andrew Alenin");
         elements.get(1).sendKeys("+79046472030");
