@@ -23,7 +23,6 @@ public class WebTest {
     @BeforeAll
     static void setupAll() {
         WebDriverManager.chromedriver().setup();
-        System.setProperty("webdriver.chrome.driver", "driver/win/chromedriver.exe");
     }
 
     @BeforeEach

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95974f8b-38f6-4379-9a45-da4c61000a6c" name="Changes" comment="add dependency web">
-      <change beforePath="$PROJECT_DIR$/src/test/java/WebTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="95974f8b-38f6-4379-9a45-da4c61000a6c" name="Changes" comment="add dependency web" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,7 +220,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662881218899</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add dependency web">
+      <created>1662881569267</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1662881569267</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add dependency web">
+      <created>1662881806715</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1662881806715</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
