@@ -1,3 +1,5 @@
+import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.SelenideElement;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -10,6 +12,10 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.util.List;
 
+import static com.codeborne.selenide.Condition.exactText;
+import static com.codeborne.selenide.Selectors.byText;
+import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.open;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -118,4 +124,15 @@ public class WebTest {
         String checkboxFailText = driver.findElement(By.cssSelector("[data-test-id='agreement'].input_invalid .checkbox__text")).getText();
         assertEquals("Я соглашаюсь с условиями обработки и использования моих персональных данных и разрешаю сделать запрос в бюро кредитных историй", checkboxFailText.trim());
     }
+
+    @Test
+    void selenidTest() {
+        open("http://localhost:9999");
+        $("[data-test-id=name] input").setValue("Аленин Андрей");
+        $("[data-test-id=phone] input").setValue("+79046472030");
+        $("[data-test-id=agreement]").click();
+        $(byText("Продолжить")).click();
+        $("[data-test-id='order-success']").shouldHave(Condition.exactText("  Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время."));
+    }
+
 }
