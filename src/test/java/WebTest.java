@@ -125,14 +125,5 @@ public class WebTest {
         assertEquals("Я соглашаюсь с условиями обработки и использования моих персональных данных и разрешаю сделать запрос в бюро кредитных историй", checkboxFailText.trim());
     }
 
-    @Test
-    void selenidTest() {
-        open("http://localhost:9999");
-        $("[data-test-id=name] input").setValue("Аленин Андрей");
-        $("[data-test-id=phone] input").setValue("+79046472030");
-        $("[data-test-id=agreement]").click();
-        $(byText("Продолжить")).click();
-        $("[data-test-id='order-success']").shouldHave(Condition.exactText("  Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время."));
-    }
 
 }
